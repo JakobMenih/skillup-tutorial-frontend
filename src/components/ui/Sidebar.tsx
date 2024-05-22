@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom'
 import Button from 'react-bootstrap/Button'
 import Offcanvas from 'react-bootstrap/Offcanvas'
 
-
 interface ItemProps extends ISidebarItem {
   setOpen: Dispatch<SetStateAction<boolean>>
 }
