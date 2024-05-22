@@ -1,8 +1,14 @@
 import { FC } from 'react'
 import DashboardLayout from '../../../../components/ui/DashboardLayout'
+import CreateUpdateUserForm from '../../../../components/user/CreateUpdateUserForm'
 
 const DashboardUsersAdd: FC = () => {
-  return <DashboardLayout>DashboardUsersAdd</DashboardLayout>
+  return (
+    <DashboardLayout>
+      <h1 className="mb-4 text-center">Create new user</h1>
+      <CreateUpdateUserForm />
+    </DashboardLayout>
+  )
 }
 
 export default DashboardUsersAdd
